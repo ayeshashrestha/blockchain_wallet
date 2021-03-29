@@ -65,7 +65,7 @@ Your directory tree should look something like this:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only three children each in this image):
 
-![](screenshots/3.PNG)
+  ![](images/3.PNG)
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -132,7 +132,7 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 
 - Fund a `BTCTEST` address using [this testnet faucet](https://coinfaucet.eu/en/btc-testnet/).
 
-     ![](screenshots/1.PNG)
+  ![](images/1.PNG)
 
 
 - Use a [block explorer](https://tbtc.bitaps.com/) to watch transactions on the address.
@@ -141,7 +141,7 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 
 - Screenshot the confirmation of the transaction, like so:
 
-     ![](screenshots/2.PNG)
+  ![](images/2.PNG)
 
 #### Local PoA Ethereum transaction
 
