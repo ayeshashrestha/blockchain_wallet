@@ -158,4 +158,12 @@ from web3.middleware import geth_poa_middleware
 
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 ```
+- Due to a bug in `web3.py`, you will need to send a transaction or two with MyCrypto first, since the
+  `w3.eth.generateGasPrice()` function does not work with an empty chain. You can use one of the `ETH` address `privkey`,
+  or one of the `node` keystore files.
+
+- Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
+  MyCrypto's TX Status, and screenshot the successful transaction, like so:
+
+![eth-test](Images/eth-test.png)
 
