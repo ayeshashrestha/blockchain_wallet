@@ -65,7 +65,7 @@ Your directory tree should look something like this:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only three children each in this image):
 
-![wallet-object](Images/wallet-object.png)
+![images](3.png)
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
